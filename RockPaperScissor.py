@@ -25,7 +25,7 @@ while True:
                 print("Invalid input. Please enter 1, 2, or 3.")
                 continue
             
-            choice = random.choice(list)  # Use the list 'l' to choose a random element
+            choice = random.choice(list)
 
             print("Computer value:", choice)
             print("User value:", uchoice)
